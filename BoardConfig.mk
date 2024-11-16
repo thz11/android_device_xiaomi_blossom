@@ -64,6 +64,9 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_blossom
 MALLOC_SVELTE := true
 MALLOC_SVELTE_FOR_LIBC32 := true
 
+# HWUI
+HWUI_COMPILE_FOR_PERF := true
+
 # Kernel
 TARGET_KERNEL_CONFIG := blossom_defconfig # no file, only make build system happy
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)-kernel/kernel # automatically copied
