@@ -74,6 +74,9 @@ wifi.direct.interface=p2p0
 wifi.interface=wlan0
 wifi.tethering.interface=ap0
 
+# Disable Skia tracing by default
+debug.hwui.skia_atrace_enabled=false
+
 # Zygote
 ro.zygote.preload.enable=0
 
