@@ -440,6 +440,10 @@ PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 # Reduce SystemServer Debug
 PRODUCT_SYSTEM_SERVER_DEBUG_INFO := false
 
+# Scudo
+PRODUCT_DISABLE_SCUDO := true
+TARGET_VNDK_USE_CORE_VARIANT := true
+
 # Don't compile SystemUITests
 EXCLUDE_SYSTEMUI_TESTS := true
 
