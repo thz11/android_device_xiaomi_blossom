@@ -18,6 +18,9 @@ $(call inherit-product, vendor/arrow/config/common_full_phone.mk)
 # Include private signing keys
 -include vendor/lineage-priv/keys/keys.mk
 
+# arrow flags
+ARROW_GAPPS := false
+
 PRODUCT_NAME := arrow_blossom
 PRODUCT_DEVICE := blossom
 PRODUCT_MANUFACTURER := Xiaomi
