@@ -440,7 +440,10 @@ PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 # DebugFS
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
+# Dexpreopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
+    Launcher3QuickStep \
+    SystemUI \
     Settings
 
 # Speed profile services and wifi-service to reduce RAM and storage
