@@ -440,6 +440,9 @@ PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 # Reduce SystemServer Debug
 PRODUCT_SYSTEM_SERVER_DEBUG_INFO := false
 
+# Don't compile SystemUITests
+EXCLUDE_SYSTEMUI_TESTS := true
+
 # Java Optimizations
 SYSTEM_OPTIMIZE_JAVA := true
 SYSTEMUI_OPTIMIZE_JAVA := true
