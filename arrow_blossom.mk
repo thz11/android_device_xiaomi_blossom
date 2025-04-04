@@ -13,10 +13,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 $(call inherit-product, device/xiaomi/blossom/device.mk)
 
 # Inherit some common ArrowOS stuff.
-$(call inherit-product, vendor/arrow/config/common_full_phone.mk)
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 # Include private signing keys
--include vendor/lineage-priv/keys/keys.mk
+#-include vendor/lineage-priv/keys/keys.mk
 
 # arrow flags
 ARROW_GAPPS := false
