@@ -7,6 +7,9 @@ ro.config.vc_call_vol_steps=9
 # Brand
 Build.BRAND=MTK
 
+# Los Maintainer
+ro.lineage.maintainer=diasthiago
+
 # Camera
 ro.camera.sound.forced=0
 
