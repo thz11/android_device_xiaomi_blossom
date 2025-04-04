@@ -228,11 +228,6 @@ PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0.vendor \
     android.hardware.thermal@1.0-impl
 
-# Preopt critical applications
-PRODUCT_DEXPREOPT_SPEED_APPS += \
-    Settings \
-    BlissSystemUI
-
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service.mediatek-libperfmgr \
